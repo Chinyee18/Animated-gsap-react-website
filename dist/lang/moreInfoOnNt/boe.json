@@ -1,0 +1,68 @@
+{
+    "en" : {
+        "la":"Benefits of EMS",
+        "lb":"(Electromyostimulation)",
+        "l1": "STRENGTH & FITNESS BENEFITS",
+        "p1":[
+            "More energy","Increased strength","Higher mobility","Avoid injuries","Improved speed","Improved endurance","Ability to carry larger loads","Compensate for age-related loss of strength"
+        ],
+        "l2":"REHABILITATION & PHYSIOTHERAPY",
+        "p2":[
+            "Repair and strengthen muscles and joints","Improves brittle bones","No strain on your joints or tendons"
+        ],
+        "l3":"HEALTH BENEFITS",
+        "p3":[
+            "Reduced backache","Improved blood circulation","Improves mental ability","Improved posture","Prevents bone fracture & osteoporosis","Boosts your immune system"
+        ],
+        "l4":"QUICK & LASTING RESULTS",
+        "p4":"Below are the expected results for a medium build individual, working out twice per week, using F-EMS, for 20 minutes each time to achieve similar results!",
+        "l4a":"IN 6 WEEKS",
+        "p4a":"Average body fat will decrease by around 4%",
+        "l4b":"IN 10 WEEKS",
+        "p4b":[
+            "Women: Reduction of between 1.5 – 2cm in the waist and hips",
+            "Men: Reduction of between 2 – 2.5cm",
+            "Increase muscle size in their legs, chest, and arms by 1 – 2cm"
+        ],
+        "l4c":"IN 12 WEEKS",
+        "p4c":[
+            "Achieve weight loss of between 3-4kg",
+            "Reduce your body fat ratio by up to 10%",
+            "Reduction of 6-7cm in the waist and 2cm in the upper arm."
+        ]
+
+    },
+    "th" : {
+        "la":"ประโยชน์ของ EMS",
+        "lb":"(Electromyostimulation)",
+        "l1": "ความแข็งแกร่ง และความแข็งแรงของร่างกาย",
+        "p1":[
+            "ช่วยให้มีพละกำลังที่มากขึ้น","ช่วยเสริมสร้างด้านความเร็ว","เพิ่มความแข็งแกร่ง","ชะลอการเสื่อมถอยของร่างกายตามอายุที่เพิ่มขึ้น","เพิ่มความคล่องตัวให้สูงขึ้น","ความสามารถในการรับน้ำหนักที่มากขึ้นได้","หลีกเลี่ยงการเกิดบาดเจ็บ","เสริมสร้างด้านความอดทน"
+        ],
+        "l2":"การฟื้นฟูสมรรถภาพ และกายภาพบำบัด",
+        "p2":[
+            "ซ่อมแซม เสริมสร้างกล้ามเนื้อ และข้อต่อ","บรรเทาอาการกระดูกเปราะ","ช่วยลดการบาดเจ็บไปยังข้อต่อ หรือเส้นเอ็นของคุณ"
+        ],
+        "l3":"ประโยชน์ต่อสุขภาพ",
+        "p3":[
+            "ลดอาการปวดหลัง","ช่วยในการไหลเวียนโลหิตดีขึ้น","ช่วยเสริมสร้างภูมิคุ้มกันร่างกายของคุณ","ปรับปรุงบุคลิกภาพให้ดีขึ้น","ป้องกันกระดูกหัก และความเสี่ยงของโรคกระดูกพรุน"
+        ],
+
+        "l4":"ผลลัพธ์ที่รวดเร็ว และมีประสิทธิภาพ",
+        "p4":"จากผลการวิจัย และผลลัพธ์ที่มีประสิทธิภาพ สำหรับบุคคลที่มีโครงสร้าง ในระดับปานกลาง โดยใช้ F-EMS เพียงสัปดาห์ละ 2ครั้งเท่านั้น ครั้งละ 20 นาทีเพื่อให้ได้ผลลัพธ์ที่ดีที่สุดสำหรับคุณ",
+        "l4a":"ใน 6 สัปดาห์",
+        "p4a":"ไขมันในร่างกายลดลงโดยเฉลี่ยประมาณ 4%",
+        "l4b":"ใน 10 สัปดาห์",
+        "p4b":[
+            "เพศหญิง: รอบเอว และสะโพกลดลง 1.5-2 ซม.",
+            "เพศชาย: ลดลงระหว่าง 2 – 2.5cm",
+            "ช่วยเพิ่มขนาดกล้ามเนื้อขา หน้าอก และแขน ประมาณ 1-2 ซม"
+        ],
+        "l4c":"ภายใน 12 สัปดาห์",
+        "p4c":[
+            "สามารถช่วยในการลดน้ำหนักลง ระหว่าง 3-4kg",
+            "ลดสัดไขมันในร่างกายลงได้ถึง 10%",
+            "รอบเอวลดลง 6-7 ซม. และต้นแขน 2 ซม."
+        ]
+    }
+}

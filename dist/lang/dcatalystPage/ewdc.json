@@ -1,0 +1,22 @@
+{
+    "en" : {
+        "l1":"Email with",
+        "l2":"Dynamic Content",
+        "l3": ["Auto generated unique links &","QR code for each recipient."],
+        "p1": ["Targeted email based","on opt-in preference"],
+        "p2": ["Response","triggered emails"],
+        "p3": ["LIVE tracking of","open, click & shares"],
+        "p4": ["Highly","personalised email"],
+        "p5": ["Auto individualised","QR code option"]
+    },
+    "th" : {
+        "l1":"ส่งอีเมล์",
+        "l2":"เนื้อหาและข้อมูลต่างๆ",
+        "l3": ["ส่งข้อมูลการประมวลผลถึงผู้รับผ่านลิ้งค์และคิวอาร์โค้ดอัตโนมัติ"],
+        "p1": ["กำหนดเป้าหมายการส่งอีเมล์ ตามการตั้งค่าการเลือกรับ"],
+        "p2":["อีเมลตอบกลับ"],
+        "p3":["ติดตามการเปิดใช้งานต่างๆ, ","คลิก & แชร์ได้ทันที"],
+        "p4":["อีเมลที่มีความเป็นส่วนตัวสูง"],
+        "p5":["ตัวเลือกรหัส QR ส่วนบุคคลอัตโนมัติ"]
+    }
+}

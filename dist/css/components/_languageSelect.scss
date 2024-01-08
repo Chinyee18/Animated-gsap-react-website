@@ -1,0 +1,30 @@
+.language-btn{
+    border: 1px solid #ccc;
+    height: auto;
+    padding: 9px 0;
+    border-radius: 15px;
+    background-color: #fff;
+    color: rgb(169, 169, 169);
+    span {
+        padding: 10px 15px;
+        cursor: pointer;
+        &:first-child {    
+            border-right: #ccc 1px solid; 
+        }
+        &:active, &:hover{
+            color: #000;
+        }
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px){
+    .language-btn{
+        padding: 5px 0;
+        border-radius: 12px;
+        span {
+            padding: 3px 6px;
+            font-size: 13px;
+        }
+    }
+}

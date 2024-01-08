@@ -1,0 +1,14 @@
+{
+    "en" : {
+        "l1":"Tecnatives EMS",
+        "l2":"Ideal for",
+        "p1": ["For Fitness","For Rehabilitation","For Rejunevation"],
+        "p2":["Hi-Tech Gym Training","Personal Trainers","Self Training","Physiotherapy"]
+    },
+    "th" : {
+        "l1":"Tecnatives EMS",
+        "l2":"เหมาะสำหรับ",
+        "p1": [],
+        "p2":["ฟิตเนส/สถานออกกำลังกายต่างๆ\n เทรนเนอร์ส่วนตัว","ท่านที่ต้องการการออกกำลังกาย\n ด้วยตนตัวเอง","ท่านที่ต้องการฟื้นฟูกล้ามเนื้อ\n หรือกายภาพบำบัด"]
+    }
+}

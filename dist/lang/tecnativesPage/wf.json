@@ -1,0 +1,24 @@
+{
+    "en" : {
+        "l1":"Wireless Freedom",
+        "p1": "Take advantage of being mobile and free from cables!",
+        "p2":"Wireless TECNATIVES Nt makes your gym workouts more effective",
+        "p3":[
+            {"id":"p3_1", "p":"Complements training in handball, football and boxing."},
+            {"id":"p3_2", "p":"Supports functional training, jogging and pilates."}],
+        "p4":"Many sports and fitness enthusiasts can use TECNATIVES Nt to achieve",
+        "p5":["endurance,","muscle tone,","rapidity,","maximum strength,","fat burning"],
+        "p6":"while preserving flexibility without placing stress on tendons and joints."
+    },
+    "th" : {
+        "l1":"การออกกำลังแนวใหม่ ความอิสระในการออกกำลังกายในแบบของคุณเอง",
+        "p1":"ให้คุณสนุกกับการเคลื่อนไหวที่ง่ายขึ้นแบบไร้ขีดจำกัด!",
+        "p2":"TECNATIVES Nt แบบไร้สาย ช่วยให้การออกกำลังกายของคุณมีประสิทธิภาพมากยิ่งขึ้น",
+        "p3":[{
+            "id":"p3_1", "p":"ช่วยในการเสริมสร้างการฝึกการออกกำลังกายในแบบต่างๆของคุณ รวมไปถึงกีฬา เอ้าดอร์ต่างๆ"},
+            {"id":"p3_2", "p":"รองรับการออกกำลังกายแบบใช้กล้ามเนื้อแทบทุกส่วนของร่างกาย เช่น ทั้งจ๊อกกิ้ง และพิลาทิส"}],
+        "p4":"หากคุณคือผู้ที่รักในการออกกำลังกาย ไม่ว่าจะเป็นฟิตเนส\n หรือการออกกำลังกายชนิดอื่นๆ ท่านสามารถใช้ TECNATIVES Nt\n เพื่อให้บรรลุเป้าหมายของคุณได้ในเวลาอันสั้น",
+        "p5":["ช่วยเสริมสร้างความแข็งแรง ช่วยในการควบคุม\n น้ำหนักและยังช่วยรักษาอาการบาดเจ็บ","ของกล้ามเนื้อ ทำให้การออกกำลังกายของคุณ\n ไม่เป็นเรื่องน่าเบื่ออีกต่อไป"],
+        "p6":"นอกจากนี้ การออกกำลังกายด้วย ระบบ EMS ยังช่วยให้กล้ามเนื้อ\n มีความยืดหยุ่น ไม่ส่งผลกระทบรุนแรงต่อเส้นเอ็นและข้อต่อ"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "en" : {
+        "l":"Mobile Inbox",
+        "p1":"More than just a SMS",
+        "p2": ["Each SMS is accompanied by unique hyperlink to view such as html creative, email, website etc,","Hyperlink auto generated,","Each link lands on a fully personalised page for each individual customer,","Time/date of “click” is tracked live,","Of course, SMS message delivery is also tracked!"]
+    },
+    "th" : {
+        "l":"",
+        "p1":"กล่องจดหมายเคลื่อนที่ เป็นมากกว่า SMS",
+        "p2": ["SMS แต่ละรายการจะมาพร้อมกับไฮเปอร์ลิงก์ที่ไม่ซ้ำกันเพื่อดู html โฆษณา อีเมล์ เว็บไซต์ ฯลฯ","สร้างไฮเปอร์ลิงก์อัตโนมัติ","แต่ละลิงก์จะเข้าสู่หน้าส่วนบุคคลสำหรับลูกค้าแต่ละราย","เวลา/วันที่ของ “การคลิก” มีการติดตามแบบ Real Time","ซึ่งแน่นอนว่าสำหรับการส่งข้อความ SMS ก็จะถูกติดตามด้วยเช่นกัน!"]
+    }
+}

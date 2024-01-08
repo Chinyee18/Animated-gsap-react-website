@@ -1,0 +1,98 @@
+.gallery--ImgWrapper{
+    .gallery--col{
+        &:nth-child(even){
+            margin-top: 100px;
+            margin-bottom: -80px;
+        }
+        .gallery--img{
+            @include aspect(3,4);
+            
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            margin: 10px;
+            img{
+                position: absolute;
+                height: 116%;
+                background-color: #f2f2f2;
+                left: -8%;
+            }
+            .gallery--desc{
+                background-color: $color-tec-green;
+                position: absolute;
+                z-index: 2;
+                color: #fff;
+                padding: 40px;
+                height: 100%;
+                display: none;
+                overflow: auto;
+                .galleryDesc--title{
+                    @include medium-font;
+                }
+               
+            }
+            // &:hover{
+            //      .gallery--desc{display: block ;}
+            //     .addCloseBtn{transform: rotate(0deg);}
+            // }
+            .addCloseBtn{
+                transform: rotate(45deg);
+                width: fit-content;
+                z-index: 9999999;
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                cursor: pointer;
+                &.open{
+                    transform: rotate(0deg);
+                }
+            }
+            .desc--title{
+                position: absolute;
+                bottom: 20px;
+                left: 35px;
+                color: #fff;
+                @include medium-font;
+            }
+        }
+    }
+    @media screen and (max-width: 992px){
+        .gallery--col{
+            &:nth-child(even){
+                margin-top: 200px;
+                margin-bottom: -160px;
+            }
+            .gallery--img{
+                margin: 20px 0px;
+            }
+        }
+    }
+    .gallery--col{
+        .gallery--img{
+            border-radius: 14px;
+            margin: 0;
+        }
+    }
+    @media screen and (max-width: 480px){
+        //mobile 1 column gallery img
+        &.row-cols-1{
+            .gallery--col{
+                &:nth-child(even){
+                    margin-top: unset;
+                    margin-bottom: unset;
+                }
+                .gallery--img{
+                    margin: 10px -2px;
+                }
+            }
+            
+        }
+        .gallery--col{
+            .gallery--img{
+                border-radius: 10px;
+                margin: 0px -2px;
+                
+            }
+        }
+    }  
+}

@@ -1,0 +1,53 @@
+
+    
+a{
+    text-decoration: none !important; 
+}
+
+.cus--btn{
+    @include small-font;
+    line-height: 0 !important;
+    border-radius: 50rem;
+    cursor: pointer;
+    font-size: var(--font-btn);
+    transition: all 0.1s ease-out;
+    transition-delay: 0.2s; 
+    padding: 20px 40px;
+}
+//$color outline and text, on hover $color bg and white text
+@each $name, $color in $btnColors {
+    .btn--outline#{$name} {
+        border: 1px solid $color;
+        color: $color;
+        background-color: transparent;
+        transform: translateX(0) translateY(0);
+        transition: transform .7s ;
+        &:hover{
+            background-color: $color;
+            color: #fff;
+            text-decoration: none;
+            transform: translateX(10px) translateY(20px);
+        }
+    }
+}
+//white outline and text, on hover white bg and $color text
+@each $name, $color in $btnColors {
+    .btn--outlineWhite#{$name} {
+        border: 1px solid #fff;
+        color: #fff;
+        background-color: transparent;
+        transform: translateX(0) translateY(0);
+        transition: transform .7s ;
+        &:hover{
+            background-color: #fff;
+            color: $color;
+            text-decoration: none;
+            transform: translateX(10px) translateY(20px);
+        }
+    }
+}
+
+
+
+
+

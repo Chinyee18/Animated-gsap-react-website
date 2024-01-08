@@ -1,0 +1,27 @@
+{
+    "en" : {
+        "l":["NT","SYSTEM"],
+        "p": "TECNATIVES Nt functional electromyo stimulation (F-EMS) system, made up of a number of coordinated individual components.",
+        "l1":"Nt suit",
+        "p1": "Unique in workmanship and function: the antibacterial impulse surfaces do not require moistening and are easy to wash.",
+        "l2":"Nt Core",
+        "p2": "The heart of the system. Generates body-like impulses and measures body feedback for optimal EMS stimulation.",
+        "l3":"Nt App",
+        "p3": ["Controls and manages your training wherever you need it: on your smartphone and tablet, on iOS and Android.","Allows individual and group training in one product. Up to 4Nt Cores can be controlled by one Nt App."],
+        "l4":"Nt LICENSE",
+        "p4": "The Nt license identifies the system against the services of the Nt Cloud and technical support."
+       
+    },
+    "th" : {
+        "l":["ระบบ NT"],
+        "p": "ระบบกระตุ้นไฟฟ้าฟังก์ชัน Nt (F-EMS) ประกอบไปด้วยระบบต่างๆของคลื่นไฟฟ้าความถี่ต่ำ ซึ่งจะทำการรวบรวมผลและประมวลผลร่างกายของแต่ละบุคคล โดยรวบรวมไว้ใน NT SYSTEM TECNATIVES เพียงเครื่องเดียว",
+        "l1":"Nt suit",
+        "p1":"มีเอกลักษณ์เฉพาะในเรื่องของการทำงานรวมถึงฟังก์ชันต่างๆ : ป้องกันเกิดการติดเชื้อจากแบคทีเรียและไม่จำเป็นต้องให้มีความชื้นขณะใช้งาน ง่ายต่อการทำความสะอาด",
+        "l2":"Nt Core",
+        "p2": "ปัจจัยสำคัญของระบบ คือการวิเคราะห์ร่างกายและประมวลผลต่างๆของร่างกาย เพื่อการกระตุ้นกระแสไฟฟ้า  EMS ที่เหมาะสมของการใช้งานในแต่ละครั้ง",
+        "l3":"Nt App",
+        "p3": ["จะทำการควบคุมการเทรนในรูปแบบต่างๆของคุณ ให้อิสระในการเทรนไม่ว่าที่ไหนที่คุณต้องการ คุณสามารถใช้ได้ทั้งบนสมาร์ทโฟนหรือแท็บเล็ตของคุณ บนระบบปฏิบัติการ iOS และ Android สามารถควบคุม","การเทรนเป็นรายบุคคลและกลุ่มได้สูงสุดถึง 4  เครื่องในเวลาเดียวกัน 4Nt สามารถควบคุมได้ด้วยแอป Nt เพียงเครื่องเดียว"],
+        "l4":"Nt LICENSE",
+        "p4": "ใบรับรองของ Nt สามารถให้บริการผ่านแอพพิลเคชั่นของ Nt Cloud การรวมไปถึงการสนับสนุนทางด้านเทคนิคต่างๆ"
+    }
+}

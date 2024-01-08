@@ -1,0 +1,133 @@
+.header--container{
+    height: 100vh;
+    .header--content{
+        margin-top: 45vh !important;
+        z-index: 18;
+    }
+    .header--images{
+        position: fixed;
+        top: 0;
+        left: clamp-calc(500px, 1500px, 30px, 800px);
+        z-index: 16;
+        .dca--click-area{
+            cursor: pointer;
+            background-color: transparent;
+            width: 360px;
+            height: 550px;
+            z-index: 4;
+            top: 90vh;
+            left: 100px;
+            transform:rotate(45deg);
+            &:hover ~ .maskSec{
+                mask-size: auto 100%; 
+                transform: translateX(-20px) translateY(-20px);
+                z-index: 4;
+            }
+        }
+    }
+    .maskMain {
+        mask-image: url(/assets/images/tecnatives/rounded-line.svg);
+        mask-repeat: no-repeat;  
+        mask-size: auto 48%;  
+        z-index: 3;
+        transform: translateX(0) translateY(0);
+        transition: all 0.8s ease-out;
+        cursor: pointer;
+        overflow: hidden;
+        img{
+            height: 90vh;
+        }
+        &--position {
+            position: relative;
+            top: clamp-calc(350px, 1000px, -350px, -1050px);
+            left: clamp-calc(350px, 1000px, 200px, 700px);
+        }
+        &:hover{
+            mask-size: auto 50%; 
+            transform: translateX(20px) translateY(20px);
+        }
+    }
+
+    .maskSec {
+        cursor: pointer;
+        mask-image: url(/assets/images/dcatalyst/rounded-line.svg);
+        mask-repeat: no-repeat;  
+        mask-size: auto 95%; 
+        z-index: 2;
+        transform: translateX(0) translateY(0);
+        transition: all 0.8s ease-out;
+        filter: grayscale(80%);
+        img{
+            height: 73vh;
+        }
+        &--position {
+            position: absolute;
+            top: 95vh;
+            left: -200px;
+        }
+        &:hover{
+            mask-size: auto 100%; 
+            transform: translateX(-20px) translateY(-20px);
+            z-index: 4;
+        }
+    }
+
+    @media screen and (max-width: 1024px){ 
+        .header--content{
+            margin-top: 50vh !important;
+        }
+        
+        .maskMain {
+            img{
+                margin-left: -100px;
+            }
+        }
+        .maskSec {
+            img{
+                height: 65vh;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px){ 
+        .header--images{
+            .dca--click-area{
+                width: 180px;
+                height: 300px;
+                top: 90vh;
+                left: -80px;
+            }
+        }
+        .header--content{
+            margin-top: 45vh !important;
+        }
+        .maskMain {
+            img{
+                height: 60vh;
+                margin-left: -70px;
+            }
+        }
+        .maskSec {
+            img{
+                height: 50vh;
+            }
+            &--position {
+                left: -300px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1000px) and (orientation:landscape){
+        height: 140vh;
+        .header--content{
+            margin-top: 25vh !important;
+            .title__green, .title__dBlue{
+                font-size: clamp-calc(350px, 1000px, 33px, 40px); 
+                line-height: 45px;
+            }
+        }
+    }
+}
+
+
+

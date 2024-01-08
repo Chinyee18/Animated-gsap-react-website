@@ -1,0 +1,69 @@
+
+$colors: (3: #521b93, 2: #de33dc, 1: #941651, 6: #00c1fe, 5:#006ffe, 4:#073d6e);
+$bottom: 15px;
+$right: 18px;
+
+.boe--container{
+    .boe--content{
+        padding-top: 180px;
+        .box {
+            padding: 30px 30px 30px 50px;
+            color: #fff;
+            position: relative;
+            margin: 0 -12px;
+            float: left;
+            background-color:#941651;
+            width: 100%;
+            h2{
+                margin-bottom: 20px;
+            }
+           
+          }
+        .arrow-right{
+            width: auto;
+            &:after {
+                content: " ";
+                position: absolute;
+                right: -$right;
+                top: 50px;
+                border-top: $right solid transparent;
+                border-right: none;
+                border-bottom: $right solid transparent;
+            }
+        }
+        .arrow-bottom:after {
+            position: absolute;
+            bottom: -$bottom;
+            left:50%;
+            margin-left: -$bottom;
+            content:"";
+            display:block;
+            border-left: $bottom solid transparent;
+            border-right: $bottom solid transparent;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        @each $key, $value in $colors {
+            #box#{$key}{
+                background-color:$value;
+                z-index: $key;
+            }
+            .arrow-right#box#{$key}{
+                &:after{border-left: $right solid $value;}
+            }
+            .arrow-bottom#box#{$key}{
+                &:after{border-top: $bottom solid $value;}
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 550px){
+    .boe--container{
+        .boe--content{
+            padding-top: 200px;
+        }
+    }
+}

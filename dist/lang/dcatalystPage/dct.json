@@ -1,0 +1,10 @@
+{
+    "en" : {
+        "l":"Core Technology",
+        "p": ["Guaranteed delivery system","Real time behavioral targeting","24 x 7 x 365\n tracking and monitoring","Individualised & personalised email & SMS\n comunication content","Auto Generation of unique hyperlinks for each customer email & SMS communication","Auto Generation of unique encrypted QR code for each communication"]
+    },
+    "th" : {
+        "l":"เทคโนโลยีหลักของเรา",
+        "p": ["รับประกันระบบการจัดการข้อมูลที่แม่นยำ","การกำหนดเป้าหมายติดตามไลฟ์สไตล์แบบเรียลไทม์","การติดตามและตรวจสอบ\n 24 x 7 x 365","เนื้อหาการสื่อสารทางอีเมล์และ SMS รายบุคคล และเป็นส่วนตัว","การสร้างไฮเปอรืลิ้งค์ที่ไม่ซ้ำกันโดยอัตโนมัติ สำหรับการสื่อสารท่งอีเมล์และทาง SMS ของลูกค้าแต่ละคน","การสร้างรหัส QR code โดยใช้รหัสการเข้าถึง ที่ไม่ซ้ำกันโดยอัตโนมัติ สำหรับการสื่อสารในแต่ละครั้ง"]
+    }
+}

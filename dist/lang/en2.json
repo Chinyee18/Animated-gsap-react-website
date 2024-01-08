@@ -1,0 +1,61 @@
+{
+    "en" : {
+        "aete": 
+            [{"p":"Andthen Enterprise proudly present TECNATIVES Nt system exclusively in Thailand, a world leading wireless EMS training system."}
+            ,{"p":"Electromyostimulation (EMS) is a technology that has been used for decades in physiotherapy, in top-class sports also in fitness to improve body strength and posture."}
+            ,{"p":"Wireless TECNATIVES Nt system from Germany offers you innovation and reliability for your functional EMS (FEMS) training or business."}],
+        "it2": 
+            [{"l1":"Tecnatives EMS", "l2":"Ideal for"}
+            ,{"p1":"For Fitness"}
+            ,{"p1":"For Rehabilitation"}
+            ,{"p1":"For Rejunevation"}
+            ,{"p2":"Hi-Tech Gym Training"}
+            ,{"p2":"Personal Trainers"}
+            ,{"p2":"Self Training"}
+            ,{"p2":"Physiotherapy"}],
+        "it": [{
+            "l1":"Tecnatives EMS", 
+            "l2":"Ideal for",
+            "p1":["For Fitness","For Rehabilitation","For Rejunevation"],
+            "p2":["Hi-Tech Gym Training","Personal Trainers","Self Training","Physiotherapy"]
+            }],
+        "wf": 
+            [{"l1":"Wireless Freedom"}
+            ,{"p1":"Take advantage of being mobile and free from cables!"}
+            ,{"p2":"Wireless TECNATIVES Nt makes your gym workouts more effective"}
+            ,{"p3":"Complements training in handball, football and boxing,"}
+            ,{"p3":"Supports functional training, jogging and pilates. "}],
+        "aboutMe": "For more info about the author",
+        "buttonClicked": "You clicked to button!"
+    },
+    "th" : {
+        "aete": 
+            [{"p":"Andthen Enterprise ภูมิใจนำเสนอระบบ TECNATIVES Nt เฉพาะในประเทศไทยเท่านั้น ด้วยการออกกำลังการแนวใหม่ด้วยระบบไฟฟ้า EMS ไร้สายชั้นนำของโลก."}
+            ,{"p":"Electromyostimulation หรือ EMS เป็นระบบการออกกำลังกาย โดยการกระตุ้นกล้ามเนื้อด้วยกระแสไฟฟ้า ซึ่งเป็นเทคโนโลยีที่นิยมใช้มานานหลายทศวรรษ โดยใช้เทคโนโลยีที่ช่วยในการทำกายภาพบำบัด และใช้ในกลุ่มนักกีฬาระดับแนวหน้าของโลก ยังรวมไปถึงการออกกำลังกาย เพื่อช่วยสร้างความแข็งแรงของร่างกาย และปรับบุคลิกภาพต่างๆ."}
+            ,{"p":"สำหรับ TECNATIVES Nt เป็นระบบการออกกำลังกายแนวใหม่จากประเทศเยอรมนี โดยการนำนวัตกรรมที่ได้การยอมรับและผลลัพธ์ที่ชัดเจนมาใช้ สำหรับท่านที่รักในการออกกำลังกาย หรือท่านที่ต้องการขยายธุรกิจของคุณ ด้วยการใช้ฟังก์ชั่น EMS (FEMS)."}],
+        "it2": 
+            [{"l1":"Tecnatives EMS", "l2":"เหมาะสำหรับ"}
+            ,{"p1":"สำหรับฟิตเนส"}
+            ,{"p1":"สำหรับท่านที่ต้องการฟื้นฟู"}
+            ,{"p1":"ความแข็งแรงของกล้ามเนื้อ"}
+            ,{"p2":"ฟิตเนส สถานบันออกกำลังกาย"}
+            ,{"p2":"เทรนเนอร์ฝึกสอนส่วนตัว"}
+            ,{"p2":"ท่านที่ต้องการออกกำลังกายด้วยตนเอง"}
+            ,{"p2":"ท่านที่ต้องการฟื้นฟูกล้ามเนื้อหรือกายภาพบำบัด"}],
+        "it": {
+                "l1":"Tecnatives EMS", 
+                "l2":"เหมาะสำหรับ",
+                "p1":["สำหรับฟิตเนส","สำหรับท่านที่ต้องการฟื้นฟู","ความแข็งแรงของกล้ามเนื้อ"],
+                "p2":["ฟิตเนส สถานบันออกกำลังกาย","เทรนเนอร์ฝึกสอนส่วนตัว","ท่านที่ต้องการออกกำลังกายด้วยตนเอง","ท่านที่ต้องการฟื้นฟูกล้ามเนื้อหรือกายภาพบำบัด"]
+        },
+        "wf": 
+            [{"l1":"การออกกำลังแนวใหม่ ความอิสระในการออกกำลังกายในแบบของคุณเอง"}
+            ,{"p1":"ให้คุณสนุกกับการเคลื่อนไหวง่ายยิ่งขึ้น ไร้สายเคเบิล!"}
+            ,{"p2":"TECNATIVES Nt แบบไร้สาย ช่วยให้การออกกำลังกายของคุณมีประสิทธิภาพมากยิ่งขึ้น"}
+            ,{"p3":"ช่วยในการเสริมสร้างการฝึกการออกกำลังกายในแบบต่างๆของคุณ รวมไปถึง กีฬาแฮนด์บอล ฟุตบอล และมวย"}
+            ,{"p3":"รองรับการออกกำลังกายแบบใช้กล้ามเนื้อแทบทุกส่วนของร่างกาย เช่น ทั้งจ๊อกกิ้ง และพิลาทิส "}],
+            
+        "aboutMe": "For more info about the author",
+        "buttonClicked": "You clicked to button!"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "en" : {
+        "l":"Contact Us",
+        "p1": "Head Office",
+        "p2": ["Andthen Enterprise","1479/170 Nimit Mai Road,","Sai Kong Din, Khlong Sam Wa","Bangkok 10510 Thailand"],
+        "p3": "+66 80-316-4969",
+        "p4": "enquiries@andthen.co.th"
+    },
+    "th" : {
+        "l":"ติดต่อเรา",
+        "p1": "ติดต่อเรา",
+        "p2": ["Andthen Enterprise","1479/170 Nimit Mai Road,","Sai Kong Din, Khlong Sam Wa","Bangkok 10510 Thailand"],
+        "p3": "โทรศัพท์ +66 80-316-4969",
+        "p4": "อีเมล enquiries@andthen.co.th"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "en" : {
+        "l":"Solutions & System",
+        "p": "More information on",
+        "cta": "Visit our Regional Website",
+        "p1":"Native Training (Nt)",
+        "p2":"Benefits of EMS",
+        "p3":"How does EMS work?",
+        "p4":"Nt Technology"
+    },
+    "th" : {
+        "l":"ทางเลือก & ระบบ",
+        "p": "ข้อมูลเพิ่มเติมเกี่ยวกับ",
+        "cta": "เยี่ยมชมเว็บไซต์อย่างเป็นทางการได้ที่นี่",
+        "p1":"การฝึกแบบเก่า (Nt)",
+        "p2":"ประโยชน์ของ EMS",
+        "p3":"EMS ทำงานอย่างไร?",
+        "p4":"เทคโนโลยี NT"
+    }
+}

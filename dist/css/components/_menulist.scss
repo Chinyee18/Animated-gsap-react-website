@@ -1,0 +1,15 @@
+.menu--list{
+    ul{
+        margin-bottom: 2rem;
+        
+        li{
+            &:first-child{
+                @include medium-font;
+                margin-bottom: 1.5rem;
+            }
+            a{
+                color: $color-darkGrey;
+            }
+        }
+    }
+}

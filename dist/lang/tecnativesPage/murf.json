@@ -1,0 +1,33 @@
+{
+    "en" : {
+        "l1":"Muscle Up, Reduce Fat",
+        "p1": "Better muscle build-up",
+        "p1Desc":["Carry heavier weights","Counter age-related loss of strength"],
+        "p2": "Stronger endurance",
+        "p2Desc":["Increase stamina","More flexible"],
+        "p3": "Faster fat reduction",
+        "p3Desc":["In 6 weeks, average body fat will decrease by around 4%","In 12 weeks, lose weight up to 4kg"],
+        "p4":[
+            {"id":"p4_1","p":"Effectively engage of your muscles through external electrical impulses."},
+            {"id":"p4_2","p":"More muscles are stimulated by these impulses than by conventional training."},
+            {"id":"p4_3","p":"Difficult to reach deep muscles are activated."},
+            {"id":"p4_4","p":"Pump muscles to work harder without putting pressure on your joints."},
+            {"id":"p4_5","p":"Posture is improved by the activated musculature."}
+        ]
+        
+    },
+    "th" : {
+        "l1":"เสริมสร้างกล้ามเนื้อ และช่วยลดไขมันในเวลาอันสั้น",
+        "p1": "ช่วยเสริมสร้างกล้ามเนื้อ",
+        "p1Desc":["คุณสามารถแบกรับน้ำหนักได้มากขึ้น","สร้างความแข็งแรงให้กับคุณแม้ในอายุที่มากขึ้น"],
+        "p2": "เสริมสร้างความแข็งแรง\n ให้คุณมากขึ้น",
+        "p2Desc":["ช่วยให้คุณมีความแข็งแรงและสร้างความยืดหยุ่นของร่างกายให้ดียิ่งดี"],
+        "p3": "ช่วยในการลดน้ำหนักของคุณ\n ในเวลาอันสั้น",
+        "p3Desc":["ใน 6 สัปดาห์ ไขมันในร่างกายของคุณโดยเฉลี่ยจะลดลงประมาณ 4%","ใน 12 สัปดาห์ ลดน้ำหนักได้ถึง 4 กิโลกรัม"],
+        "p4":[
+            {"id":"p4_1","p":"กล้ามเนื้อของคุณจะเปลี่ยนแปลงอย่างเห็นได้ เห็นผลอย่างรวดเร็ว ผ่านแรงกระตุ้นไฟฟ้าจากผิวภายนอก"},
+            {"id":"p4_2","p":"การออกกำลังกายแบบใช้ไฟฟ้า ช่วยกระตุ้นกล้ามเนื้อได้มากกว่าการเทรนแบบปกติ"},
+            {"id":"p4_3","p":"ให้คุณสามารถใช้งานกล้ามเนื้อส่วนที่ลึกซึ่งเข้าถึงยาก"},
+            {"id":"p4_4","p":"ฝึกกล้ามเนื้อของคุณให้ทำงานหนักขึ้นโดยไม่สร้างความบาดเจ็บให้กับเอ็นและข้อต่อ"},{"id":"p4_5","p":"ปรับปรุงบุคลิกภาพของคุณให้ดียิ่งขึ้นด้วยการกระตุ้นระบบกล้ามเนื้อชั้นใน"}]
+    }
+}

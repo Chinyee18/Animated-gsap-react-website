@@ -1,0 +1,60 @@
+.OB--container{
+    @include flex-1-column-center-left;
+    padding-top: 30vh; 
+}
+
+.OB-img--container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 0 1.5rem;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 480px){
+        margin: 0 ;
+        border-radius: 25px;
+        img{
+            width: 170%;
+        }
+    }
+}
+
+.AU--container{
+    .gradient--bg{
+        background-image: linear-gradient(#fff, #eeeeee);
+        border-radius: 25px;
+        .AU--content{
+            @include flex-1-column-center-left;
+            padding: 20vh 0;
+            margin-bottom: 20vh;
+            .subtitle2{
+                @include medium-font;
+                font-weight: 400;
+                margin-bottom: 2rem;
+                &.th{
+                    @include medium-font(th);
+                }
+            }
+            
+        }
+    }
+    @media screen and (max-width: 480px){
+        &.section__padding_small{
+            padding: 0;
+        }
+        .gradient--bg{
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+.subtitle{
+    @include medium-font(en);
+    font-weight: 400;
+    margin-left: 6px;
+}

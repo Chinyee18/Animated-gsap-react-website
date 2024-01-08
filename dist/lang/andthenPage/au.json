@@ -1,0 +1,16 @@
+{
+    "en" : {
+        "l": "About Us",
+        "p1": "vision",
+        "p1desc": "\"to be the trusted partner for companies looking to grow their business in Thailand\"",
+        "p2": "mission",
+        "p2desc":["The underlying goal of any business is to drive growth.","With access & expertise in Thailand, our strategy focuses on growing our partners’ & associates’ businesses by strengthening our service offering and increasing operational efficiency.","Andthen Enterprise pursue this strategy by implementing an agile organization, embracing digital technologies to adapt to ever-changing market environments and ensuring sustainable, profitable growth."]
+    },
+    "th" : {
+        "l": "เกี่ยวกับเรา",
+        "p1": "วิสัยทัศน์",
+        "p1desc": "\"เป็นพันธมิตรที่เชื่อถือได้ สำหรับบริษัทที่ต้องการขยายธุรกิจในประเทศไทย\"",
+        "p2": "เป้าหมายของเรา",
+        "p2desc":["พัฒนาธุรกิจของคุณให้ไปถึงเป้าหมาย ขับเคลื่อนธุรกิจเพื่อก้าวไปสู่การเติบโต","ด้วยความเชี่ยวชาญจากผู้มีประสบการณ์ในประเทศไทย กลยุทธุ์ของเราจะมุ่งเน้นไปที่การขยายธุรกิจของท่าน และพันธมิตรของเรา โดยกลยุทธุ์ที่มีประสิทธิภาพ และยังเพิ่มศักยภาพในการดำเนินธุรกิจของท่านให้ดียิ่งขึ้น","Andthen Enterprise ด้วยประสบการณ์ของเรา เรายังสามารถปรับรูปแบบธุรกิจ เผื่อให้ตอบสนองต่อสถานการณ์ที่เปลี่ยนแปลงได้อย่างรวดเร็ว พร้อมเปิดรับเทคโนโลยีดิจิทัล เพื่อปรับให้เข้ากับสภาวะทางการตลาดที่เปลี่ยนแปลงอยู่ตลอดเวลา สร้างความมั่นใจได้ว่า จะสามารถมีผลกำไรที่เติบโตอย่างยั่งยืน"]
+    }
+}

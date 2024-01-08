@@ -1,0 +1,304 @@
+.empty--container{
+    height: 45vh; 
+    @media screen and (max-width: 480px){
+        height: 0; 
+    }
+}
+
+// Andthen Enterprise + Tecnatives EMS
+.AETE--container{
+    @include flex-1-column-center-left;
+    height: 100vh;
+    .AETE--content {
+        z-index: 10;
+    }
+    h1 {
+        margin-bottom: 2.5rem;
+    }
+    @media screen and (max-width: 1000px) and (orientation:landscape){
+        height: 140vh;
+    }
+}
+
+//Introducing Tecnatives
+.IT--container{
+    position: relative;
+    .IT--content_container{
+        .IT--img_wrapper{
+            overflow: hidden;
+            position: relative;
+            height: 88vh;
+            .IT--img{
+                visibility:hidden;
+                border-radius: 20px 0 0 20px;
+                object-fit: cover;
+                height: 88vh;
+                position: absolute;
+            }
+        }
+        .IT--text_wrapper{
+            border-radius: 0 20px 20px 0;
+            background-color: $color-darkGrey;
+            padding: 35px 6%;
+            overflow: hidden;
+            .IT--text-content{
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+            }
+        }
+    }
+    @media screen and (max-width: 992px) and (orientation:portrait){
+        .IT--content_container{
+            .IT--img_wrapper{
+                height: 85vh;
+                .IT--img{
+                    margin-left: -90%;
+                    height: 85vh;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 550px) and (orientation:portrait){
+        .IT--content_container{
+            .IT--img_wrapper{
+                height: 40vh;
+                padding: 0;
+                .IT--img{
+                    border-radius: 0;
+                    width: 100%;
+                    height: 40vh;
+                    margin-left: 0;
+                }
+            }
+            .IT--text_wrapper{
+                border-radius: 0 0 20px 20px;
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+                padding-bottom: 5rem;
+            }
+        }
+    }
+}
+
+// Wireless Freedom
+.WF--container {
+    height: auto;
+    .WF--content_container{
+        margin-top: 10%;
+        .text-content{
+            margin-top: 12%;
+            .text-content--1{
+                height: auto;
+                margin-bottom: 4rem;
+            }
+            .text-content--2{
+                height: auto;
+            }
+            h5{
+                @include medium-small-font;
+                &.th{
+                    @include medium-small-font(th);
+                }
+            }
+            .title__black{
+                &.th{
+                    @include large-font(th);
+                } 
+            }
+        }
+    }
+}
+
+// Muscle Up Reduce Fat
+.MURF--container{
+    position: relative;
+    .MURF--animation{
+        padding: 20vh 0;
+        display: flex;
+        align-items: center;
+        .MURF--card-content{
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            width: 80%;
+            img{
+                margin-right: 2rem;
+                width: 4rem;
+            }
+        }
+        .MURF--card{
+            background-color: #fff;
+            width: 47%;
+            height: 230px;
+            left: -1.5rem;
+            margin-top: -30px;
+            box-shadow: 0 1rem 3rem rgba(0,0,0,.2);
+            border-radius: 20px;
+            position: absolute;
+            &:last-child{
+                height: 280px;
+            }
+        }
+        .MURF--card-content-desc{
+            margin-bottom: 1rem;
+        }
+    }
+    @media screen and (max-width: 900px){
+        .MURF--animation{
+            // padding: 12vh 0;
+            // .MURF--card{
+            //     width: 100%;
+                
+            // }
+            .MURF--card-content{
+                width: 90%;
+                margin-bottom: 1rem;
+            }
+            .MURF--card-content-desc{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    @media screen and (max-width: 760px){
+        .MURF--animation{
+            padding: 12vh 0;
+            .MURF--card{
+                width: 100%;
+                
+            }
+            .MURF--card-content{
+                 width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    @media screen and (max-width: 480px){
+        .MURF--animation{
+            padding: 10vh 0;
+            .MURF--card{
+                height: 120px;
+                width: 100%;
+                left: 0;
+            }
+            .MURF--card-content{
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+            .MURF--card-content-desc{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// Proven And Safe Technology
+.PAST--container{
+    background-color: $color-darkGrey;
+    border-radius:20px;
+    padding: 10vh 0 12vh 0;
+    .PAST--title{
+        position: relative;
+        z-index: 5;
+    }
+    .PAST--content{
+        max-width: 51%;
+        p{
+            color: $color-lightGrey;
+        }
+    }
+    .PAST-img--container{
+        position: relative;
+        .imgReveal--container{
+            //position: absolute;
+            overflow: hidden;
+            width: 85%;
+            height: 50vh;
+            margin-left: -18%;
+            margin-top: -40px;
+            border-radius: 10px;
+            .imgReveal{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .PAST-img-2{
+            position: absolute;
+            width: 30%;
+            height: auto;
+            z-index: 2;
+            left: 250px;
+            top: 150px;
+        }
+    }
+    @media screen and (max-width: 1200px){
+        .PAST--content{
+            max-width: 90%;  
+        }
+        .PAST-img--container{
+            .imgReveal--container{
+                width: 100%;
+                height: 45vh;
+                margin-left: -15%;
+            }
+        }
+    }
+    @media screen and (max-width: 992px){
+        .PAST-img--container{
+            .imgReveal--container{
+                width: 78%;
+                height: 37vh;
+                margin-left: -3%;
+            }
+            .PAST-img-2{
+                width: 25%;
+                left: 400px;
+                top: 170px;
+            }
+        }
+    }
+    @media screen and (max-width: 768px){
+        .PAST-img--container{
+            .imgReveal--container{
+                height: 32vh;
+            }
+            .PAST-img-2{
+                left: 350px;
+                top: 70px;
+            }
+        }
+    }
+    @media screen and (max-width: 480px){
+        border-radius:0px;
+        padding: 10vh 0;
+        .row{
+            padding: 0 6%;
+        }
+        .PAST-img--container{
+            
+            .imgReveal--container{
+                height: 30vh;
+                margin-left: -12%;
+            }
+            .PAST-img-2{
+                left: 60%;
+                top: 14vh;
+            }
+        }
+        
+    }
+}
+
+.NS--content{
+    height: auto;
+    margin-top: 15vh !important;
+    margin-bottom: 30vh ;
+    // @media screen and (max-width: 992px){
+    //     height: unset;
+    //     margin-top: 15vh !important;
+    //     margin-bottom: 30vh;
+    // }
+    
+}

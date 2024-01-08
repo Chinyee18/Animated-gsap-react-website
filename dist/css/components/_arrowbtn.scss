@@ -1,0 +1,129 @@
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+  transition: $property $duration $ease;
+}
+
+.circle-btn--container {
+  cursor: pointer;
+  padding: 5px;
+
+  &.left{
+    transform: rotate(180deg);
+  }
+
+  @each $name, $color in $btnColors {
+    &:focus {
+      .circle-btn--outer {
+        &.btn--#{$name} {
+          border: 2px solid $color;
+        }
+      }
+    }
+  }
+
+  &.scroll--top{
+    transform: rotate(-90deg);
+    margin-left: 92%;
+    position: fixed;
+    margin-top: 80vh;
+    z-index: 999;
+    //opacity: 0;
+    @media screen and (max-width: 1200px){
+      margin-left: 85%;
+      transform: rotate(-90deg) scale(0.8);
+    }
+   
+    @media screen and (max-width: 480px){
+      margin-left: 68%;
+    }
+  }
+  @media screen and (max-width: 992px){
+    transform: scale(0.8);
+    &.left{
+      transform: rotate(180deg) scale(0.8);
+    }
+    &.scroll--top{
+      margin-left: 85%;
+    }
+  }
+  @media screen and (max-width: 480px){
+    
+    &.scroll--top{
+      margin-left: 68%;
+    }
+    
+  }
+
+}
+
+.circle-btn--outer {
+  mix-blend-mode: invert;
+  background-color:rgba(255,255,255,0.3);
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border: 1px solid $color-darkGrey;
+  border-radius: 50%;
+  position: relative;
+  transition: 
+    transform .7s cubic-bezier(1,0,.25,1), 
+    opacity .7s cubic-bezier(.5,0,0,1),
+    -webkit-transform .7s cubic-bezier(.5,0,0,1);
+}
+
+.circle-arrow--icon {
+    position: absolute;
+    top: calc(50% - 4px);
+    right: calc(50% - 4px);
+    width: 75%;
+    height: 8px;
+    transform: translateX(0) translateY(0);
+    transition: transform .7s cubic-bezier(1,0,.25,1);
+    will-change: transform;
+}
+
+.circle-arrow--bar {
+  width: 200px;
+  height: 2px;
+  width: 100%;
+  background-color: $color-darkGrey;
+  position: absolute;
+  top: 3px;
+  transform: translateX(0) translateY(0);
+  transform-origin: 0 0;
+  transition: 
+    transform .7s cubic-bezier(1,0,.25,1),
+    opacity .7s cubic-bezier(1,0,.25,1);
+  will-change: transform opacity;
+}
+
+$triangleSize: 6px;
+.circle-arrow--triangle {
+    @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transform: translateX(4.36rem) translateY(0);
+    transform-origin: 0 0;
+    transition: 
+    transform .7s cubic-bezier(1,0,.25,1),
+    opacity .7s cubic-bezier(1,0,.25,1);
+    will-change: transform opacity;
+    &::before {
+        position: absolute;
+        content: '';
+        top: -0.0625rem;
+        right: 1.8rem;
+        width: 0.625rem;
+        height: 0.625rem;
+        border-top: 2px solid $color-darkGrey;
+        border-right: 2px solid $color-darkGrey;
+        transform: rotate(45deg);
+      }
+    
+}
+
+button {
+  all: unset;
+}

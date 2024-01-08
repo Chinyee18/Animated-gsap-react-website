@@ -1,0 +1,68 @@
+.CTA--container{
+    margin: 0 0 30vh 0;
+    .CTA--content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //border-bottom: 0.5px solid #000;
+        &:hover {
+            cursor: pointer;
+            .circle-btn--outer {
+              transform: translateX(25px) translateY(20px);
+            }
+            .circle-arrow--icon {
+                transform: translateX(25px) translateY(20px);
+            }
+            .circle-arrow--bar {
+              transform: translateX(-50px) translateY(-20px) scaleX(1.5);
+            }
+            .circle-arrow--triangle {
+              transform: translateX(48px) translateY(-20px);
+            }
+        }
+        p{
+            margin: 0 3rem 0 0;
+        }
+        .CTA--text{
+            p{
+                @include medium-small-font;
+                &.th{
+                    @include medium-small-font(th);
+                }
+            }
+            a, a:active, a:hover{
+                text-decoration: none;
+                color: #000;
+            }
+            .tec--green{
+                background-color: $color-tec-green;
+                color: #fff;
+            }
+            .dca--dBlue{
+                background-color: $color-dca-darkBlue;
+                color: #fff;
+            }
+            .grey{
+                background-color: $color-grey;
+                color: #fff;
+            }
+        }
+    }
+    .right{
+        float: right;
+    }
+    
+    @media screen and (max-width: 550px){
+        margin: 10vh 0;
+        .CTA--content{
+            display: block;
+            text-align: center;
+            p{
+                margin: auto;
+            }
+        }
+        .right{
+            float: none;
+        }
+    }
+}

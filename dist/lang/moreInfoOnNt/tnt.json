@@ -1,0 +1,37 @@
+{
+    "en" : {
+        "l":"Tecnatives Native Training (Nt)",
+        "l1":"OUR TECHNOLOGY",
+        "p1":[
+            "TECNATIVES Nt technology is based on more than four years of joint research and development. Scientists and engineering teams from Germany and China have jointly researched and exploited technological boundaries. The TECNATIVES Nt system is more than just a new participant, it takes the lead in a dynamically growing lifestyle  market.",
+            "The heart of the system is a novel WIRELESS suit-generator-sensor system, the Nt Core.",
+            "On the basis ofbody-like impulses, nerve and muscle fibres are stimulated, measured and optimized. An integrated biofeedback system prevents overexcitation and overstraining of the activated muscle groups. In addition, data are introduced into the stimulation process by means of extended sensor technology in order to optimise training and open upnew areas of application."
+        ],
+        "p2":[
+            "TECNATIVES Nt stimulates a muscle electrically and check whether it is activated neuronally in the correct dosage and with the expected result.", 
+            "As such it optimizes your Functional electromyostimulation(F-EMS) impulses for the respective exercise or sport. These impulses have an additional or reinforcing effect on your natural movements, acting as an additive to the movements of the user.", 
+            "Applied correctly, F-EMS technology makes training more efficient and sustainable."
+        ],
+        "p3":[
+            "The special tracksuit Nt Suit contains all necessary electrodes, cables and the measuring equipment.", 
+            "The materials were partly developed for space travel and meet all earthly standards. ", 
+            "The efficient system does not require additional wiring or humidification. Tighten, warm up, done."
+        ]
+    },
+    "th" : {
+        "l":"นวัตกรรมใหม่ของการออกกำลังกาย (Nt)",
+        "l1":"เทคโนโลยีของเรา",
+        "p1": [
+            "เทคโนโลยี TECNATIVES Nt เกิดขึ้นจากการวิจัย และพัฒนาร่วมกันมากว่า 4ปี โดยนักวิทยาศาสตร์ ทีมวิศวกรจากเยอรมนี และจีน ที่ได้ทำการวิจัย และขยายขอบเขตทางเทคโนโลยี ของระบบ TECNATIVES Nt  จึงถือได้ว่าเราเป็นผู้นำในตลาดและเหมาะกับไลฟ์สไตล์ในปัจจุบันที่กำลังเติบโตอย่างต่อเนื่อง",
+            "หัวใจสำคัญของระบบนี้ก็คือ Nt Core ซึ่งเป็นระบบเซ็นเซอร์รูปแบบใหม่ที่ถูกพัฒนาขึ้น ที่จะช่วยสร้างแรงกระตุ้นให้เหมาะสมกับร่างกายของคุณ โดยจะการกระตุ้นไปที่เส้นใยประสาทและกล้ามเนื้อต่างๆ  จะมีการวัดผลและปรับให้เหมาะสมที่สุด ด้วยระบบ Biofeedback เพื่อช่วยป้องกันกล้ามเนื้อที่ได้รับการกระตุ้นหนักจนเกินไป โดยข้อมูลจะถูกนำเข้าสู่กระบวนการวิเคราะห์โดยใช้การกระตุ้น ผ่านเทคโนโลยีเซนเซอร์ในรูปแบบโปรแกรมต่างๆ เพื่อช่วยเพิ่มประสิทธิภาพในการใช้งาน และยังเป็นการอัพเดทข้อมูลการใช้งานต่างๆผ่านแอปพลิเคชั่นอีกด้วย"
+        ],
+        "p2":[
+            "เทคโนโลยี TECNATIVES Nt จะช่วยพัฒนากล้ามเนื้อของคุณด้วยการกระตุ้นไฟฟ้า โดยจะทำการตรวจสอบว่ามีการกระตุ้นเซลล์ประสาทของกล้ามเนื้อในปริมาณที่ถูกต้องและเหมาะสม จนได้รับผลตามที่คาดหวังไว้",
+            "เพื่อประสิทธิภาพที่ดียิ่งขึ้น เราได้ปรับแรงกระตุ้น FEMS ของคุณให้มีความเหมาะสม สำหรับการออกกำลังกาย หรือกีฬาแต่ละรูปแบบ โดยแรงกระตุ้นไฟฟ้าความถี่ต่ำเหล่านี้มีผลในการช่วยเสริมสร้างแรงในการเคลื่อนไหวของกล้ามเนื้อคุณ",
+            "เทคโนโลยี FEMS จึงถูกนำมาปรับใช้เพื่อช่วยให้การฝึกนั้น มีประสิทธิภาพ เห็นผลชัดเจนในระยะยาวมากยิ่งขึ้น"
+        ],
+        "p3":[
+            "ชุดออกกำลังกาย Nt Suit ประกอบไปด้วยอุปกรณ์อิเล็กทรอนิกส์ และอุปกรณ์ตรวจวัดที่จำเป็นทั้งหมดไว้ในอุปกรณ์เพียงเครื่องเดียวซึ่งมีความสามารถตรวจวัดค่าต่างๆของร่างกายได้อย่างแม่นยำ ซึ่งถือได้ว่าเป็นระบบที่มีประสิทธิภาพ โดยไม่จำเป็นต้องใช้สายไฟ หรือทำความชื้นเพิ่มเติม ชุดมีการออกแบบให้มีความกระชับ เพิ่มคล่องตัวในแก่ผู้ใช้ พร้อมใช้งานได้ทันที"
+        ]
+    }
+}

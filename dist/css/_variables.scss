@@ -1,0 +1,156 @@
+/* en */
+@font-face {
+  font-family: 'Din';
+  src: local('Din'), 
+  url(assets/fonts/Din-Font/DIN.woff) format('woff'),
+  url(assets/fonts/Din-Font/DIN.woff2) format('woff2'),
+  url(assets/fonts/Din-Font/DIN.ttf) format('truetype');
+  font-weight: normal;/* or 400 */
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Din';
+  src: local('Din'), 
+  url(assets/fonts/Din-Font/DIN_Medium.woff) format('woff'),
+  url(assets/fonts/Din-Font/DIN_Medium.woff2) format('woff2'),
+  url(assets/fonts/Din-Font/DIN_Medium.ttf) format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Din';
+  src: local('Din'), 
+  url(assets/fonts/Din-Font/DIN_Bold.woff) format('woff'),
+  url(assets/fonts/Din-Font/DIN_Bold.woff2) format('woff2'),
+  url(assets/fonts/Din-Font/DIN_Bold.ttf) format('truetype');
+  font-weight: bold;/* or 700 */
+  font-style: normal;
+}
+
+/* th unicode-range: U+0E00-7F; */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500;600&display=swap');
+
+$letter-spacing: 1.2px;
+
+/* font family */
+$font-en: 'Din', sans-serif;
+$font-th: 'Sarabun', sans-serif;
+
+/* color */
+$color-tec-green: rgb(149,193,31);
+      
+$color-dca-darkBlue: rgb(40,37,89);
+$color-dca-purple: rgb(127,127,211);
+
+$color-lightGrey: rgb(196, 196, 196);
+$color-grey: rgb(136, 136, 136);
+$color-darkGrey: rgb(37, 41, 41);
+
+@mixin extra-large-font($lang: en){
+  font-size: clamp-calc(350px, 1000px, 45px, 70px);
+  font-family: $font-en;
+  font-weight: 600;
+  line-height: clamp-calc(350px, 1000px, 48px, 78px);
+  letter-spacing: $letter-spacing;
+  @if $lang == th {
+    font-family: $font-th;
+    font-size: clamp-calc(350px, 1000px, 40px, 65px); 
+    line-height: clamp-calc(350px, 1000px, 43px, 73px);
+  }
+}
+@mixin large-font($lang: en){
+  font-family: $font-en;
+  font-weight: 500;
+  font-size: clamp-calc(350px, 1000px, 33px, 40px); 
+  line-height: clamp-calc(350px, 1000px, 38px, 45px);
+  letter-spacing: $letter-spacing;
+  @if $lang == th {
+    font-family: $font-th;
+    font-size: clamp-calc(350px, 1000px, 30px, 37px); 
+    line-height: clamp-calc(350px, 1000px, 35px, 42px);
+  }
+}
+@mixin medium-font($lang: en){
+  font-family: $font-en;
+  font-weight: 500;
+  font-size: clamp-calc(350px, 1000px, 24px, 30px); 
+  line-height: clamp-calc(350px, 1000px, 28px, 34px);
+  letter-spacing: 0.7px;
+  @if $lang == th {
+    font-family: $font-th;
+    font-size: clamp-calc(350px, 1000px, 22px, 28px); 
+    line-height: clamp-calc(350px, 1000px, 26px, 32px);
+    letter-spacing: 0.6px;
+  }
+}
+
+@mixin medium-small-font($lang: en){
+  font-family: $font-en;
+  font-size: clamp-calc(350px, 1000px, 19px, 24px); 
+  line-height: clamp-calc(350px, 1000px, 24px, 30px);
+  font-weight: 400;
+  @if $lang == th {
+    font-weight: 300;
+    font-family: $font-th;
+    font-size: clamp-calc(350px, 1000px, 16px, 21px); 
+    line-height: clamp-calc(350px, 1000px, 21px, 27px);
+  }
+}
+@mixin small-font($lang: en){
+  font-family: $font-en;
+  font-size: clamp-calc(350px, 1000px, 18px, 20px); 
+  line-height: clamp-calc(350px, 1000px, 27px, 30px);
+  @if $lang == th {
+    font-family: $font-th;
+    font-size: clamp-calc(350px, 1000px, 14px, 16px); 
+    line-height: clamp-calc(350px, 1000px, 23px, 25px);
+  }
+}
+
+@mixin flex-1-column-center-left{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@mixin flex-1-column-center{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin flex-column-top-left{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+$btnColors: (
+    "GreyColor":$color-grey, 
+    "TecColor":$color-tec-green, 
+    "DcaColor":$color-dca-darkBlue
+);
+
+@mixin aspect($width, $height) {
+  aspect-ratio: $width / $height;
+
+  @supports not (aspect-ratio: $width / $height) {
+      &::before {
+          content: '';
+          float: left;
+          padding-top: calc((#{$height} / #{$width}) * 100%);
+      }
+
+      &::after {
+          content: '';
+          display: block;
+          clear: both;
+      }
+  }
+}

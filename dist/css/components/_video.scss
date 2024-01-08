@@ -1,0 +1,91 @@
+$button-color: #fff;
+$button-bg-color: rgba( $button-color, .4 );
+$button-size: 5em;
+$button-stroke: $button-size/30;
+$arrow-base-size: $button-size/5;
+
+.V--container{
+    z-index: 9999999;
+    position: relative;
+    .img--container{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        position: relative;
+        .video--img{
+            width: 80%;
+            height: auto;
+            border-radius: 50px;
+        }
+        
+    }
+    .video--container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display:none;
+        .player--wrapper{
+            background:#000;
+            border-radius: 25px;
+            width:90%;
+            max-height: 95%;
+            margin:auto;
+            overflow:hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .videoCloseBtn{
+            width: fit-content;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            cursor: pointer;
+        }
+    }  
+    .showVideo {
+        display:block ;
+    }
+    @media screen and (max-width: 550px){
+        $button-size: 3em;
+        $button-stroke: $button-size/30;
+        $arrow-base-size: $button-size/5;
+
+        .img--container{
+            .video--img{
+                border-radius: 20px;
+            }
+            //play btn
+            .play-button {
+                border: $button-stroke solid $button-color;
+                height: $button-size;
+                width: $button-size;
+                top: 7vh;
+                .play-arrow {
+                    border-width: $arrow-base-size 0 $arrow-base-size $arrow-base-size*1.6;
+                    left: $arrow-base-size/3;
+                }
+            }
+            .play-button-nyt {
+                border: $button-stroke solid transparent;
+                .play-arrow {
+                    // Tweak these multipliers to design the shape of your ►
+                    border-width: $arrow-base-size*2 0 $arrow-base-size*2 ($arrow-base-size*1.6)*2;
+                }
+            }
+        }
+        .video--container {
+            .player--wrapper{
+                border-radius: 15px;
+            }
+        }
+        
+    }
+}

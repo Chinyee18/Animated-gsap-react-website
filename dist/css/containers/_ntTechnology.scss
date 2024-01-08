@@ -1,0 +1,33 @@
+.ntt--container{
+    .ntt--content{
+        color: white;
+        padding-top: 180px;
+        .tnt-img{
+            img{
+                top: 150px!important;
+                z-index: 98!important;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+        .green__bg{
+            padding: 50px 50px 35px 150px;
+            margin-top: 30px;
+            margin-left: -150px;
+            margin-bottom: -50px;
+            h2{
+                margin-bottom: 25px;
+            }
+            &:last-child{
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 550px){
+    .ntt--container{
+        .ntt--content{
+            padding-top: 200px;
+        }
+    }
+}

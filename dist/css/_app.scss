@@ -1,0 +1,245 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    background-color: #fff;
+  }
+  
+  .fullscn__height {
+    height: 100vh;
+  }
+  
+  .section__padding{
+    padding: 0 6%;
+  }
+  
+  .section__padding_small{
+    padding: 5rem 1.5rem 1.5rem;
+  }
+  
+  .section__screen {
+    position: fixed;
+    overflow: hidden;
+    border-radius: 2.777vw;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section__canvas {
+    padding: 0.694vw;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.777vw;
+    // pointer-events: none;
+  }
+  
+  .display__flex{
+    display: flex;
+  }
+  
+  .flex__1{
+    display: flex;
+    flex: 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-en;
+    &.th{
+      font-family: $font-th;
+    }
+  }
+  
+  /*font style*/
+  @mixin title($lang){
+    @include extra-large-font($lang);
+    margin-bottom: 1.5rem;
+  }
+  .title__black {
+    @include extra-large-font(en);
+    margin-bottom: 1.5rem; 
+    color: black; 
+    &.th{
+      @include large-font(th)
+    }
+  }
+  .title__white {
+    @include extra-large-font(en);
+    margin-bottom: 1.5rem; 
+    color: white; 
+    &.th{
+      @include large-font(th)
+    }
+  }
+  .title__green {
+    @include extra-large-font(en);
+    margin-bottom: 1.5rem; 
+    color: $color-tec-green; 
+    &.th{
+      @include large-font(th)
+    }
+  }
+  .title__dBlue {
+    @include extra-large-font(en);
+    margin-bottom: 1.5rem; 
+    color: $color-dca-darkBlue; 
+    &.th{
+      @include large-font(th)
+    }
+  }
+  .title__purple {
+    @include extra-large-font(en);
+    margin-bottom: 1.5rem; 
+    color: $color-dca-purple; 
+    &.th{
+      @include large-font(th)
+    }
+  }
+  
+  .bold-green__text h1{
+    @include large-font(en);
+    color: $color-tec-green;
+    margin-top: 0.5rem;
+    &.th{
+        @include large-font(th)
+    }
+  }
+  .bold-green__text h2{
+    @include medium-font(en);
+    color: $color-tec-green;
+    &.th{
+        @include medium-font(th)
+    }
+  }
+  .bold-purple__text h2{
+    @include medium-font(en);
+    color: $color-dca-purple;
+    &.th{
+        @include medium-font(th)
+    }
+  }
+  .bold-dBlue__text h1{
+    @include large-font(en);
+    color: $color-dca-darkBlue;
+    &.th{
+        @include large-font(th)
+    }
+  }
+  .bold-white__text h1{
+    @include large-font(en);
+    color: #fff;
+    &.th{
+        @include large-font(th)
+    }
+  }
+  .bold-white__text h2{
+    @include medium-font(en);
+    color: #fff;
+    &.th{
+        @include medium-font(th)
+    }
+  }
+  
+  .black__text h1{
+    @include large-font(en);
+    color: #000;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    &.th{
+        @include large-font(th)
+    }
+  }
+  
+  .grey__medium h5{
+    @include medium-small-font(en);
+    color: $color-grey;
+    margin: 1.5rem 0;
+    &.th{
+        @include medium-small-font(th)
+    }
+  }
+  
+  .no__bullets{
+    list-style-type: none; 
+    padding: 0;  
+  }
+  
+  .icon__check{
+    margin-left: 20px;
+    margin-top: 1rem;
+    &:before {
+        content: "\f058"; /* FontAwesome Unicode */
+        color: $color-tec-green;
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.6em; /* same as padding-left set on li */
+        width: 1.6em; /* same as padding-left set on li */
+      }
+  }
+
+  
+  p,li,span,h2,h3,h4,h5,h6{
+    white-space:pre-line;
+    @media screen and (max-width: 480px){
+      white-space:normal;
+    }
+  }
+  
+  p, button {
+    @include small-font(en);
+    word-break: initial;
+    &.th{
+        @include small-font(th)
+    }
+  }
+  
+  li{
+    @include small-font(en);
+    word-break: initial;
+    margin-bottom: 0.5rem;
+    &.th{
+        @include small-font(th)
+    }
+  }
+
+  .green__bg{
+    background-color: $color-tec-green;
+  }
+
+  .white__bg{
+    background-color: white;
+  }
+
+  .other__page{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 80px;
+    .prev, .next{
+        align-items: center;
+        p{
+          color: $color-darkGrey;
+        }
+    }
+    .next{
+      flex-direction: row-reverse;
+    }
+}
+  
+  // mobile
+  @media (max-width: 480px) { 
+    // .mobile__hide{
+    //     display:none;
+    // }
+    .section__padding_small{
+        padding:0;
+    }
+  }

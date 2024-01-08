@@ -1,0 +1,64 @@
+.footer--container{
+    background-color: #e8e8e8;
+    padding-top: 3rem;
+    .logo--container{
+        display: flex;
+        //flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //margin-top: 1rem;
+        .andthen--logo{
+            margin-left: 20px;
+            margin-right: 20px;
+            img{
+                width: 170px;
+            }
+        }
+        .tecnatives--logo{
+            margin-left: 20px;
+            margin-right: 20px;
+            img{
+                width: 170px;
+            }
+        }
+        .dcatalyst--logo{
+            margin-left: 20px;
+            margin-right: 20px;
+            img{
+                width: 135px;
+            }
+        }
+        // hr{
+        //     width: 180px;
+        //     margin-top: 2rem;
+        //     margin-bottom: 2rem;
+        // }
+    }
+    .copyright-text{
+        font-size: 10px;
+    }
+    @media screen and (max-width: 480px){
+        padding-bottom: 1rem;
+        .logo--container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .andthen--logo{
+                //margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .tecnatives--logo{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .dcatalyst--logo{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .text-center{
+                text-align: left !important;
+            }
+        }
+    }
+}

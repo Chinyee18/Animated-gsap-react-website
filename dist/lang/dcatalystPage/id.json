@@ -1,0 +1,28 @@
+
+{
+    "en" : {
+        "p1":"Communicate to your database of customers efficiently and cost effectively.",
+        "p2": ["With over 10 years of experience in enterprise level e-communication solutions, our propriety intelligent integrated platform will provide Unsurpassed Delivery and Reach to your valued customers.",
+        "Placed 'in premise' at your own data centre or externally, our enterprise level system is proven to be highly secured."],
+        "l3":["We Provide Enterprise Level","e-Communication Solutions"],
+        "p3":
+            [{"img":"../../../../assets/images/dcatalyst/email-icon.svg", "p":"Expedient deployment of customised bulk email and e-statements."}, 
+            {"img":"../../../../assets/images/dcatalyst/sms-icon.svg", "p":"Generate highly personalised SMS with UNIQUE hyperlink specifically for each individual recipient."},
+            {"img":"../../../../assets/images/dcatalyst/survey-icon.svg", "p":"Create webforms featuring encrypted QR codes for applications such as e-invites, surveys etc."},
+            {"img":"../../../../assets/images/dcatalyst/share-icon.svg", "p":"Instant sharing of email content on recipient’s own personal social media."},
+            {"img":"../../../../assets/images/dcatalyst/qr-icon.png", "p":"Generation of QR codes embedded in emails and webforms"},
+            {"img":"../../../../assets/images/dcatalyst/call-center-icon.svg", "p":"Integration with your Call Centre and Letter Shopper for greater impact and reach."}]
+    },
+    "th" : {
+        "p1": "การสื่อสาร...สู่ฐานข้อมูลลูกค้าอย่างมีประสิทธิภาพ และคุ้มค่ามากที่สุด",
+        "p2": ["ด้วยประสบการณ์กว่า 10 ปี ในการแก้ปัญหาทางการสื่อสาร\n ทางอิเล็กทรอนิกส์ระดับองค์กร ด้วยแพลตฟอร์มในรูปแบบที่ทันสมัย ","ที่จะทำให้องค์กรณ์ของคุณเข้าถึงฐานข้อมูลของลูกค้าของคุณได้อย่างรวดเร็ว\n และยังตอบโจทย์ด้วยความแม่นยำ ด้วยประสิทธิภาพที่ไม่มีใครเทียบได้","สามารถจัดเก็บไว้ในศูนย์ข้อมูลของคุณเอง หรือภายนอกองค์กร\n ซึ่งได้รับการพิสูจน์แล้วว่ามีความปลอดภัยสูง"],
+        "l3":["เราให้บริการ แก้ปัญหาด้านการสื่อสารทางอิเล็กทรอนิกส์ ในระดับองค์กร"],
+        "p3":
+            [{"img":"../../../../assets/images/dcatalyst/email-icon.svg", "p":"วิธีการส่งอีเมลจำนวนมาก และใบแจ้งยอดอิเล็กทรอนิกส์"}, 
+            {"img":"../../../../assets/images/dcatalyst/sms-icon.svg", "p":"สร้าง SMS ที่เป็นส่วนตัวสูงด้วยไฮเปอร์ลิงก์ไม่ซ้ำกัน\n สำหรับผู้รับเฉพาะแต่ละคน"},
+            {"img":"../../../../assets/images/dcatalyst/survey-icon.svg", "p":"สร้างเว็บฟอร์มที่มีรหัส QR สำหรับแอปพลิเคชั่น เช่น e-invites, แบบสำรวจต่างๆ"},
+            {"img":"../../../../assets/images/dcatalyst/share-icon.svg", "p":"แชร์เนื้อหาอีเมล์บนโซเซียลมีเดียของผู้รับทันที"},
+            {"img":"../../../../assets/images/dcatalyst/qr-icon.png", "p":"สร้างรหัส QR ที่ฝังอยู่ในอีเมลและเว็บฟอร์ม"},
+            {"img":"../../../../assets/images/dcatalyst/call-center-icon.svg", "p":"การทำงานร่วมกับคอลเซ็นเตอร์และการจัดเตรียม\n จัดส่งเอกสารทางไปรษณีย์ของคุณ\n เพื่อเพิ่มการเข้าถึงที่มากยิ่งขึ้น"}]
+    }
+}
